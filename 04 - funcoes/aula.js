@@ -8,7 +8,7 @@ function incrementarJuros(valor, percentualJuros) { //com base no desafio de val
 
 }
 
-//chamando a função e passando os valores desejados conseguirmos fazer a conta sem precisar escrever toda a equação para descobrir o valor, pois a função substitui através dos parâmetros passados.
+/*chamando a função e passando os valores desejados conseguirmos fazer a conta sem precisar escrever toda a equação para descobrir o valor, pois a função substitui através dos parâmetros passados.*/
 
 console.log(incrementarJuros(100, 10));
 console.log(incrementarJuros(100, 15));
