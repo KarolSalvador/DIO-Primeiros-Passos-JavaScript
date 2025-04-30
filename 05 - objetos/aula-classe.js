@@ -4,12 +4,13 @@ uma grande vantagem de utilizar classes é para não precisar reescrever código
 class Pessoa {
     nome;
     idade;
-    //O constructor define o acontece quando uma classe é instanciada. tornando obrigatório que seja passado o parâmetro
+    //O constructor define o que será obrigatório que seja passado o parâmetro
     constructor(nome, idade) {
         this.nome = nome;
         this.idade = idade;
     }
 
+    //forma de criar método na classe
     descrever() {
         console.log(`Meu nome é ${this.nome} e eu tenho ${this.idade} anos.`);
     }
